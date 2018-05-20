@@ -6,7 +6,7 @@ using namespace std;
 int searchIndex(int arr[], int right, int search);
 
 int main() {
-	unsigned int arraysize = 10000000;
+	unsigned int arraysize = 1000000;
 	int *arr = new int[arraysize];
 
 	for (int i = 0; i <= arraysize; i++) {
