@@ -49,6 +49,9 @@ int main() {
 		cout << "Dont fined that number in array " << endl;
 	}
 
+
+	delete[] arr;
+
 }
 
 void SelectionSort(int arr[], int size) {
